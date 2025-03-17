@@ -41,7 +41,7 @@ Class User_model extends Database
         return [
             'id' => $user['id'],
             'name' => $user['name'],
-            'password' => $user['password']
+            'email' => $user['email']
         ];
     }
 

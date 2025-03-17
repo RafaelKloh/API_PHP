@@ -5,6 +5,7 @@ class Home_controller
 {
     public function index()
     {
-        echo "Hello World";
+        $data = array('message' => 'Hello World');
+        echo json_encode($data);
     }
 }
